@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://use.fontawesome.com/2a8a6780db.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<p id="bonus">
+		You have unlocked additional features for the game! Press the following buttons to toggle features:<br>"b" - change background image; "c" - collision; "f" - freeze game; "p" - play/pause music
+	</p>
+	<div class="gameContainer">
+		<canvas id="gameBoard" width="600" height="600"></canvas>
+		<div id="overlay">
+			<h1 id="title">SNAKE!</h1>
+			<p id="information">Eat the berries to gain points<br>Make sure not to hit walls or yourself</p>
+			<p id="instructNewGame">Press Start Button to Start New Game</p>
+		<button id="newGame">Start New Game</button>
+		</div>
+	</div>
+	<div id="stats">
+		<i id="soundEffect" class="fa fa-volume-up" title="click here or press M key to toggle sound effects"></i>
+		<div id="score"></div>
+		<div id="level"></div>		
+	</div>
+	<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+	<script type="text/javascript" src="./assets/js/snake_constructor.js"></script>
+	<script type="text/javascript" src="./assets/js/food_constructor.js"></script>
+	<script type="text/javascript" src="./assets/js/functional.js"></script>
+</body>
+</html>

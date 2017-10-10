@@ -1,0 +1,54 @@
+body{
+	background:#3E606F no-repeat center center fixed;
+	background-size:cover;
+}
+.gameContainer{
+	position:relative;
+	margin:0 auto;
+	width:600px;
+	height:600px;
+}
+#overlay{
+	top:0;
+	left:0;
+	position:absolute;
+	text-align:center;
+	color:#FFECB4;
+	font-size: 30px;
+	width:600px;
+	height:600px;
+}
+
+button{
+	background-color:#FFECB4;
+	font-size:30px;
+	border-radius:15px;
+	outline:none;
+	border:4px solid #402110;
+}
+
+#stats{
+	margin:0 auto;
+	display:flex;
+	padding:15px;
+	font-size:25px;
+	color:#FFECB4;
+	width:max-content;
+	border-radius:5px;
+	justify-content:center;
+}
+#stats>div,#stats>i{
+	margin-left:10px;
+}
+#bonus{
+	display:none;
+	margin:0 auto;
+	font-size:20px;
+	color:#FFECB4;
+	padding:0 30px;
+	border-radius:5px;
+	width:max-content;
+}
+.fa-volume-off{
+	color:#ccc;
+}
